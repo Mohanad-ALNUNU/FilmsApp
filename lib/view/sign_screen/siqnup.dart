@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:revesion_app/utils/responsive.dart';
 
 class SignIn extends StatefulWidget {
   const SignIn({super.key});
@@ -26,9 +27,6 @@ class _SignInState extends State<SignIn> {
   final _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
-    double _screenWidth = MediaQuery.of(context).size.width;
-    double _screenHeight = MediaQuery.of(context).size.height;
-
     void changeColor(signList) {
       int filledFieldsNumber = 0;
       _buttonColor = const Color.fromARGB(255, 255, 50, 70);
@@ -89,9 +87,6 @@ class _SignInState extends State<SignIn> {
       });
     }
 
-    print("_screenWidth");
-    print(_screenWidth);
-    print(_screenHeight);
     return Padding(
       padding: const EdgeInsets.all(15),
       child: Center(
@@ -107,7 +102,7 @@ class _SignInState extends State<SignIn> {
               children: [
                 Text(
                   isSignIn ? "Sign In" : "Sign Up",
-                  style: TextStyle(
+                  style: const TextStyle(
                       fontSize: 45,
                       color: Colors.black,
                       fontWeight: FontWeight.w100),
@@ -121,7 +116,8 @@ class _SignInState extends State<SignIn> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     SizedBox(
-                      width: _screenWidth / 2.5,
+                      width: Responsive.getScreenReolution(context)['width']! /
+                          2.5,
                     ),
                     Padding(
                       padding: const EdgeInsets.all(10.0),
@@ -140,8 +136,9 @@ class _SignInState extends State<SignIn> {
                             if (_formKey.currentState!.validate() && isSignIn) {
                               signeIn(context);
                             }
-                            if (_formKey.currentState!.validate() && !isSignIn) {
-                              //signeUn();
+                            if (_formKey.currentState!.validate() &&
+                                !isSignIn) {
+                              //signeUp();
                             }
                           },
                           child: Text(
@@ -150,7 +147,7 @@ class _SignInState extends State<SignIn> {
                         ),
                       ),
                     ),
-                    Expanded(child: SizedBox()),
+                    const Expanded(child: SizedBox()),
                     TextButton(
                         onPressed: switchSignType,
                         child: Text(
