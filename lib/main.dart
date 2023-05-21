@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:revesion_app/view/appProxy.dart';
-void main() {
-  runApp(const AppProxy());
-}
+import 'package:revesion_app/view/root_screen.dart';
 
+void main() {
+  runApp(RootScreen());
+}
