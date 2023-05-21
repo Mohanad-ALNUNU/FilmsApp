@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:revesion_app/view/root_screen.dart';
-import 'package:revesion_app/view/sign_screen/siqnup.dart';
+import 'package:films_app/view/root_screen.dart';
+import 'package:films_app/view/sign_screen/siqnup.dart';
 
 class FilmsApp extends StatelessWidget {
   const FilmsApp({super.key});

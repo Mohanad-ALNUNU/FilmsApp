@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:revesion_app/controller/film_controller.dart';
-import 'package:revesion_app/utils/constants.dart';
+import 'package:films_app/controller/film_controller.dart';
+import 'package:films_app/utils/constants.dart';
 
 class FilmMainText extends StatelessWidget {
   final String text;

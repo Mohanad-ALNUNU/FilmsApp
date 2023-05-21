@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:revesion_app/utils/constants.dart';
+import 'package:films_app/utils/constants.dart';
 
 class VotingBar extends StatelessWidget {
   final double value;

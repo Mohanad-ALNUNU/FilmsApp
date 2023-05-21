@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:revesion_app/controller/film_controller.dart';
-import 'package:revesion_app/model/film_dto.dart';
-import 'package:revesion_app/utils/constants.dart';
-import 'package:revesion_app/utils/responsive.dart';
-import 'package:revesion_app/view/films_view/components/film_image.dart';
-import 'package:revesion_app/view/films_view/components/film_main_text.dart';
-import 'package:revesion_app/view/films_view/components/film_metadata_text.dart';
-import 'package:revesion_app/view/films_view/components/voting_bar.dart';
+import 'package:films_app/controller/film_controller.dart';
+import 'package:films_app/model/film_dto.dart';
+import 'package:films_app/utils/constants.dart';
+import 'package:films_app/utils/responsive.dart';
+import 'package:films_app/view/films_view/components/film_image.dart';
+import 'package:films_app/view/films_view/components/film_main_text.dart';
+import 'package:films_app/view/films_view/components/film_metadata_text.dart';
+import 'package:films_app/view/films_view/components/voting_bar.dart';
 
 class FilmCard extends StatelessWidget {
   final FilmController _homeController = FilmController();

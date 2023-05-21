@@ -2,9 +2,9 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:revesion_app/controller/film_controller.dart';
+import 'package:films_app/controller/film_controller.dart';
 
-import 'package:revesion_app/view/films_view/components/films_grid.dart';
+import 'package:films_app/view/films_view/components/films_grid.dart';
 
 class SearchView extends StatefulWidget {
   const SearchView({super.key});
