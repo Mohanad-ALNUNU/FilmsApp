@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:revesion_app/utils/constants.dart';
-import 'package:revesion_app/view/films_view/films_view.dart';
-import 'package:revesion_app/view/search_view/search_view.dart';
+import 'package:films_app/utils/constants.dart';
+import 'package:films_app/view/films_view/films_view.dart';
+import 'package:films_app/view/search_view/search_view.dart';
 import 'package:sidebarx/sidebarx.dart';
 
 class CurrentScreens extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:revesion_app/view/films_view/components/films_grid.dart';
+import 'package:films_app/view/films_view/components/films_grid.dart';
 
 class FilmsView extends StatelessWidget {
   const FilmsView({super.key});

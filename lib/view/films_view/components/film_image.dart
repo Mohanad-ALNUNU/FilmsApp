@@ -1,8 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:revesion_app/utils/constants.dart';
-import 'package:revesion_app/utils/responsive.dart';
+import 'package:films_app/utils/constants.dart';
+import 'package:films_app/utils/responsive.dart';
 
 class FilmImage extends StatelessWidget {
   final String imageURL;

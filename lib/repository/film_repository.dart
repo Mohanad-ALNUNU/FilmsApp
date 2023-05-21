@@ -1,4 +1,4 @@
-import 'package:revesion_app/utils/constants.dart';
+import 'package:films_app/utils/constants.dart';
 
 class FilmRepository {
   Future<List<Map>> simulateHTTP(List<Map> dataToGet) async {

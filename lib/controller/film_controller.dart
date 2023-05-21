@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:revesion_app/model/film_dto.dart';
-import 'package:revesion_app/repository/film_repository.dart';
-import 'package:revesion_app/service/films_service.dart';
-import 'package:revesion_app/utils/responsive.dart';
-import 'package:revesion_app/view/films_view/components/films_grid.dart';
+import 'package:films_app/model/film_dto.dart';
+import 'package:films_app/repository/film_repository.dart';
+import 'package:films_app/service/films_service.dart';
+import 'package:films_app/utils/responsive.dart';
+import 'package:films_app/view/films_view/components/films_grid.dart';
 
 class FilmController extends GetxController {
   final FilmRepository _filmRepository = FilmRepository();
